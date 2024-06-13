@@ -67,7 +67,7 @@ namespace koran_van_meg_csak_hajnali_1
                 string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
                 string numberChars = "1234567890";
                 string specialChars = "!@#$%^&*()_-+=<>?";
-
+                 //itt az van hogy milyen karaktereket adjon hozza a program
                 string validChars = "";
                 if (includeLowercase) validChars += lowerChars;
                 if (includeUppercase) validChars += upperChars;
