@@ -44,7 +44,7 @@ namespace koran_van_meg_csak_hajnali_1
 
                     try
                     {
-                        // Jelszó generálása
+                        // Itt megy le a jelszo csinalas savale
                         string password = GeneratePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSpecial);
                         Console.WriteLine("Itt a jelszavad: " + password);
                     }
